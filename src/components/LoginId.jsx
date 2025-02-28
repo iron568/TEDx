@@ -3,7 +3,7 @@ import { Button } from "react-bootstrap";
 import { useState } from "react";
 
 const validName = "THANOS";
-const validPassword = "IRON MAN";
+const validPassword = "IRONMAN";
 
 export function LoginAccount({ handleLogin }) {
   const [name, setName] = useState("");
