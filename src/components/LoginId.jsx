@@ -2,8 +2,8 @@ import { Alert, Form } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 import { useState } from "react";
 
-const validName = "Shakti";
-const validPassword = "12345";
+const validName = "THANOS";
+const validPassword = "IRON MAN";
 
 export function LoginAccount({ handleLogin }) {
   const [name, setName] = useState("");
@@ -32,7 +32,7 @@ export function LoginAccount({ handleLogin }) {
   }
 
   return (
-    <div className="login-page-container">
+    <form onSubmit={onLogin} className="login-page-container">
       <div className="login-page-heading">Login To Your Website and enjoy</div>
       <div className="name-container">
         <Form.Label>Enter User Name</Form.Label>
@@ -53,12 +53,12 @@ export function LoginAccount({ handleLogin }) {
         />
       </div>
       <div className="button-container">
-        <Button onClick={onLogin} variant="primary">
+        <Button type="submit" variant="primary">
           Login
         </Button>
       </div>
       {error != "" && <Alert variant="danger">{error}</Alert>}
       <div>{/* <a href="/register">Creat new account</a> */}</div>
-    </div>
+    </form>
   );
 }
