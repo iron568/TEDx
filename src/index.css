@@ -1,0 +1,228 @@
+body {
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+/* Header CSS */
+.MainHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0px;
+    background-color: black;
+    color: wheat;
+}
+
+.headerItems {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.TedCompny {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.Ted {
+    color: red;
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-left: 5px;
+}
+
+.CompnyMembership {
+    border: 2px solid red;
+    background-color: red;
+    color: aliceblue;
+    border-radius: 3px;
+    padding: 4px 8px;
+    margin-right: 25px;
+}
+
+/* maincontent CSS */
+
+.AboutCompny {
+    padding: 40px 0px;
+
+}
+
+.CompnyDetails {
+    padding: 0px 40px;
+    margin: 0px 100px;
+}
+
+.APR {
+    color: #999999;
+    font-size: 12px;
+    padding: 10px 0px;
+}
+
+.Ted2 {
+    font-size: 2.625rem;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.company {
+    font-size: 18px;
+    line-height: 1.4888888889;
+    margin-bottom: 1.5rem;
+}
+
+.ImageTag {
+    margin-top: 25px;
+}
+
+.CompanyMainDetails {
+    display: flex;
+    gap: 100px;
+}
+
+.paratags1 {
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.firstHeading {
+    margin-top: 25px;
+    margin-bottom: 8px;
+    font-size: xx-large;
+    font-weight: 100;
+
+}
+
+
+/* Footer CSS */
+
+.MainFooter {
+
+    background-color: black;
+    color: #fcfcfcbf;
+    padding: 20px 64px;
+}
+
+.headTed {
+    margin-bottom: 3rem;
+    font-size: 40px;
+    color: #FFFFFF;
+    font-weight: bold;
+
+}
+
+.headTag {
+    margin: 0px 0px 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.head2 {
+    margin: 0px 0px 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.head1tag {
+    margin: 0px 0px 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.footerItems1 {
+    margin: 0px 0px 20px;
+    white-space: nowrap;
+
+
+}
+
+.footerItems2 {
+    margin: 0px 0px 20px;
+    white-space: nowrap;
+
+}
+
+.footerAllList {
+    display: flex;
+    gap: 30px;
+    border-bottom: #999999 1px solid;
+
+}
+
+.headtext {
+    padding-right: 20px;
+}
+
+.SecHeadText {
+    padding-right: 20px;
+    padding-left: 100px;
+}
+
+.paraTag {
+    margin: 0px 0px 18px;
+}
+
+.paraTags2 {
+    margin: 15px 0px 0px;
+    color: #999999bf;
+}
+
+.FollowTED {
+    margin: 50px 0px 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.DownloadTED {
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 50px 0px 24px;
+}
+
+.socialTag {
+    display: flex;
+    gap: 20px;
+}
+
+.endDetails {
+    display: flex;
+    gap: 80px;
+    padding: 40px 0px;
+    color: #999999a1;
+
+}
+
+.lastDetails {
+    margin: 0px 0px 18px;
+}
+
+
+
+
+.login-page-container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.login-page-heading {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.name-container {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.password-container {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.button-container {
+    display: flex;
+    margin-top: 20px;
+    justify-content: flex-end;
+    min-width: 100px;
+    margin-bottom: 100px;
+}
