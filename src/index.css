@@ -44,7 +44,6 @@ body {
 
 .AboutCompny {
     padding: 40px 0px;
-
 }
 
 .CompnyDetails {
@@ -250,6 +249,27 @@ body {
         font-size: 25px;
         font-weight: bold;
     }
+
+    .AboutCompny {
+        padding: 10px;
+    }
+
+    .CompnyDetails {
+        padding: 0px 15px;
+        margin: 0px 10px;
+    }
+
+    .Ted2 {
+        font-size: 32px;
+        font-weight: 200;
+        margin-bottom: 15px;
+    }
+
+    .company {
+        font-size: 8px;
+        margin-bottom: 15px;
+    }
+
 }
 
 @media screen and (max-width: 720px) {
@@ -274,4 +294,26 @@ body {
         font-size: 25px;
         font-weight: bold;
     }
+
+    .AboutCompny {
+        padding: 5px;
+    }
+
+    .CompnyDetails {
+        padding: 0px 10px;
+        margin: 0px 15px;
+    }
+
+    .Ted2 {
+        font-size: 25px;
+        font-weight: 200;
+        margin-bottom: 10px;
+    }
+
+    .company {
+        font-size: 5px;
+        margin-bottom: 8px;
+    }
+
+
 }
