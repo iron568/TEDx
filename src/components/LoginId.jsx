@@ -33,7 +33,7 @@ export function LoginAccount({ handleLogin }) {
 
   return (
     <form onSubmit={onLogin} className="login-page-container">
-      <div className="login-page-heading">Login To Your Website and enjoy</div>
+      <div className="login-page-heading">YOU CAN LOGIN MY WEBSITE </div>
       <div className="name-container">
         <Form.Label>Enter User Name</Form.Label>
         <Form.Control
