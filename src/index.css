@@ -195,8 +195,7 @@ body {
     margin: 0px 0px 18px;
 }
 
-
-
+/* Login website Css */
 
 .login-page-container {
     max-width: 500px;
@@ -225,4 +224,43 @@ body {
     justify-content: flex-end;
     min-width: 100px;
     margin-bottom: 100px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .login-page-heading {
+        font-size: 35px;
+    }
+
+    .login-page-container {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    .button-container {
+        display: flex;
+        margin-top: 20px;
+        justify-content: flex-end;
+        min-width: 100px;
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .login-page-heading {
+        font-size: 30px;
+    }
+
+    .login-page-container {
+        max-width: 250px;
+        margin: 0 auto;
+    }
+
+    .button-container {
+        display: flex;
+        margin-top: 20px;
+        justify-content: flex-end;
+        min-width: 100px;
+        margin-bottom: 100px;
+    }
 }

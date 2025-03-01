@@ -53,7 +53,7 @@ export function LoginAccount({ handleLogin }) {
         />
       </div>
       <div className="button-container">
-        <Button type="submit" variant="primary">
+        <Button type="submit" variant="outline-danger">
           Login
         </Button>
       </div>
