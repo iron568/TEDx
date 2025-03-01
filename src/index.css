@@ -266,12 +266,12 @@ body {
     }
 
     .company {
-        font-size: 8px;
+        font-size: 16px;
         margin-bottom: 15px;
     }
 
     .paratags1 {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .firstHeading {
@@ -279,6 +279,49 @@ body {
         margin-bottom: 8px;
         font-size: 25px;
         font-weight: 100;
+    }
+
+    .MainHeader {
+        display: flex;
+        justify-content: center;
+        padding: 5px 0px;
+        background-color: black;
+        color: wheat;
+    }
+
+    .headerItems {
+        display: none;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .CompanyMainDetails {
+        flex-direction: column;
+        display: flex;
+
+    }
+
+    .footerAllList {
+        flex-direction: column;
+        display: flex;
+        gap: 30px;
+        border-bottom: #999999 1px solid;
+
+    }
+
+    .endDetails {
+        flex-direction: column;
+        display: flex;
+        gap: 80px;
+        padding: 40px 0px;
+        color: #999999a1;
+
+    }
+
+    .socialTag {
+        display: flex;
+        gap: 20px;
+        margin-bottom: 30px;
     }
 }
 
@@ -321,12 +364,12 @@ body {
     }
 
     .company {
-        font-size: 5px;
+        font-size: 16px;
         margin-bottom: 8px;
     }
 
     .paratags1 {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .firstHeading {
@@ -334,5 +377,48 @@ body {
         margin-bottom: 8px;
         font-size: 20px;
         font-weight: 100;
+    }
+
+    .MainHeader {
+        display: flex;
+        justify-content: center;
+        padding: 5px 0px;
+        background-color: black;
+        color: wheat;
+    }
+
+    .headerItems {
+        display: none;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .CompanyMainDetails {
+        flex-direction: column;
+        display: flex;
+        gap: 20px;
+    }
+
+    .footerAllList {
+        flex-direction: column;
+        display: flex;
+        gap: 30px;
+        border-bottom: #999999 1px solid;
+
+    }
+
+    .endDetails {
+        flex-direction: column;
+        display: flex;
+        gap: 80px;
+        padding: 40px 0px;
+        color: #999999a1;
+
+    }
+
+    .socialTag {
+        display: flex;
+        gap: 20px;
+        margin-bottom: 30px;
     }
 }
