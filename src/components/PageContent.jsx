@@ -40,19 +40,15 @@ export function MainContent() {
               combination of live speakers and TED Talk videos.
             </div>
             <div className="headingText">
-              <h4>
-                <CircleArrowRight color="red" />
-                Before you start
-              </h4>
+              <CircleArrowRight color="red" style={{ marginTop: "3px" }} />
+              <h4>Before you start</h4>
             </div>
             <div className="paratags1">
               What you need to know before you apply for a license
             </div>
-            <div>
-              <h4>
-                <CircleArrowRight color="red" />
-                Apply for a license
-              </h4>
+            <div className="headingText">
+              <CircleArrowRight color="red" style={{ marginTop: "3px" }} />
+              <h4>Apply for a license</h4>
             </div>
             <div className="paratags1">
               Start the application process to host your own TEDx event
@@ -65,10 +61,9 @@ export function MainContent() {
               videos, sparking conversation and connections.
             </div>
             <div className="headingText">
-              <h4>
-                <CircleArrowRight color="red" />
-                Find an event near you
-              </h4>
+              <CircleArrowRight color="red" style={{ marginTop: "3px" }} />
+
+              <h4>Find an event near you</h4>
             </div>
             <hr />
             <div className="firstHeading">Partner with TEDX</div>
@@ -77,10 +72,9 @@ export function MainContent() {
               empower and grow the global TEDx community of volunteers.
             </div>
             <div className="headingText">
-              <h4>
-                <CircleArrowRight color="red" />
-                Partner with TEDX
-              </h4>
+              <CircleArrowRight color="red" style={{ marginTop: "3px" }} />
+
+              <h4>Partner with TEDX</h4>
             </div>
           </div>
           <div>
@@ -90,20 +84,18 @@ export function MainContent() {
               everything you need to help you organize your next TED event.
             </div>
             <div className="headingText">
-              <h4>
-                <CircleArrowRight color="red" />
-                Organizer guide
-              </h4>
+              <CircleArrowRight color="red" style={{ marginTop: "3px" }} />
+
+              <h4>Organizer guide</h4>
             </div>
             <div className="paratags1">
               General instructions and best practices from experienced
               conference hosts
             </div>
             <div className="headingText">
-              <h4>
-                <CircleArrowRight color="red" />
-                Resources
-              </h4>
+              <CircleArrowRight color="red" style={{ marginTop: "3px" }} />
+
+              <h4>Resources</h4>
             </div>
             <hr />
             <div className="paratags1">
@@ -115,10 +107,9 @@ export function MainContent() {
               local audiences about everything from politics to pollination.
             </div>
             <div className="headingText">
-              <h4>
-                <CircleArrowRight color="red" />
-                Browse the library of TEDx talks
-              </h4>
+              <CircleArrowRight color="red" style={{ marginTop: "3px" }} />
+
+              <h4>Browse the library of TEDx talks</h4>
             </div>
             <hr />
             <div className="firstHeading">Speak at a TEDx event</div>
@@ -126,10 +117,9 @@ export function MainContent() {
               Learn more about how TEDx organizers find their speakers
             </div>
             <div className="headingText">
-              <h4>
-                <CircleArrowRight color="red" />
-                Speaking at TEDx
-              </h4>
+              <CircleArrowRight color="red" style={{ marginTop: "3px" }} />
+
+              <h4>Speaking at TEDx</h4>
             </div>
             <hr />
             <div className="firstHeading">Follow TEDx</div>

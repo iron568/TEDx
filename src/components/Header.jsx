@@ -10,10 +10,12 @@ export function Header() {
   return (
     <div className="MainHeader">
       <div className="TedCompny">
-        <span className="Ted">TED</span>
-        <span className="idea">Ideas change everything</span>
+        <span className="flex justify-center font-bold font-black text-3xl text-red-600">
+          TED
+        </span>
+        <span className="hidden">Ideas change everything</span>
       </div>
-      <div className="headerItems">
+      <div className="hidden">
         {headerItems.map(function (item) {
           return <span key={item}>{item}</span>;
         })}

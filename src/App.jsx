@@ -7,19 +7,19 @@ import { Button } from "react-bootstrap";
 import { LoginAccount } from "./components/LoginId";
 
 function App() {
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  // const [isLoggedIn, setIsLoggedIn] = useState(false);
 
-  function onLogin() {
-    setIsLoggedIn(true);
-  }
+  // function onLogin() {
+  //   setIsLoggedIn(true);
+  // }
 
-  if (!isLoggedIn) {
-    return (
-      <div>
-        <LoginAccount handleLogin={onLogin} />
-      </div>
-    );
-  }
+  // if (!isLoggedIn) {
+  //   return (
+  //     <div>
+  //       <LoginAccount handleLogin={onLogin} />
+  //     </div>
+  //   );
+  // }
 
   return (
     <div>
