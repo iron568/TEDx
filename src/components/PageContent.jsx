@@ -13,7 +13,7 @@ export function MainContent() {
         <div className="APR">About › Programs & Initiatives ›</div>
         <div className="Ted2">TEDx Program</div>
         <div className="company">
-          TEDx is a grassroots initiative, created in the spirit of TED’s
+          TEDx is a grassroots initiative, created in the spirit of TED's
           overall mission to research and discover “ideas worth spreading.” TEDx
           brings the spirit of TED to local communities around the globe through
           TEDx events. These events are organized by passionate individuals who

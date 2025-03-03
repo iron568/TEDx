@@ -56,13 +56,13 @@ export function Footer() {
         </div>
 
         <div className="SecHeadText">
-          <div className="head1tag">Newsletters</div>
-          <div className="head2">Get the latest talks</div>
-          <div className="paraTag">
+          <div className="head1tag hidden">Newsletters</div>
+          <div className="head2 hidden">Get the latest talks</div>
+          <div className="paraTag hidden">
             Get a daily email featuring the latest talk, plus a quick mix of
             trending content.
           </div>
-          <div>
+          <div className="hidden">
             <InputGroup size="lg" color="white">
               <Form.Control
                 aria-label="Large"
@@ -73,7 +73,7 @@ export function Footer() {
               </InputGroup.Text>
             </InputGroup>
           </div>
-          <div className="paraTags2">
+          <div className="paraTags2 hidden">
             By subscribing, you understand and agree that we will store, process
             and manage your personal information according to our Privacy Policy
           </div>
@@ -109,22 +109,24 @@ export function Footer() {
       </div>
       <div className="endDetails">
         <div>
-          <div className="lastDetails">TED Talks Usage Policy</div>
-          <div className="lastDetails">Jobs</div>
+          <div className="lastDetails hidden">TED Talks Usage Policy</div>
+          <div className="lastDetails hidden">Jobs</div>
         </div>
         <div>
-          <div className="lastDetails">Privacy Policy</div>
-          <div className="lastDetails">Press</div>
+          <div className="lastDetails hidden">Privacy Policy</div>
+          <div className="lastDetails hidden">Press</div>
         </div>
         <div>
-          <div className="lastDetails">Advertising / Partnership</div>
-          <div className="lastDetails">Help</div>
+          <div className="lastDetails hidden">Advertising / Partnership</div>
+          <div className="lastDetails hidden">Help</div>
         </div>
         <div>
-          <div className="lastDetails">TED.com Terms of Use</div>
-          <div className="lastDetails">Privacy Preferences</div>
+          <div className="lastDetails hidden">TED.com Terms of Use</div>
+          <div className="lastDetails hidden">Privacy Preferences</div>
         </div>
-        <div>© TED Conferences, LLC. All rights reserved.</div>
+        <div className="hidden">
+          © TED Conferences, LLC. All rights reserved.
+        </div>
       </div>
     </div>
   );
